@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mandarin Academy Frontend
 
-## Getting Started
+Mandarin Academy is a modern online Mandarin learning platform designed to help students improve their Chinese language skills through interactive lessons and video-based learning experiences.
 
-First, run the development server:
+This frontend application was built using Next.js and Tailwind CSS, focusing on responsive design, clean user experience, and modern UI components.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## ✨ Features
+
+* Modern responsive UI
+* Mandarin course browsing
+* User authentication
+* Student dashboard
+* Admin dashboard
+* Profile management
+* Video lesson integration
+* Course enrollment system
+* Progress tracking interface
+* Mobile-friendly layout
+
+---
+
+## 🛠️ Frontend Technologies
+
+* Next.js 15
+* TypeScript
+* Tailwind CSS
+* Radix UI
+* Lucide React Icons
+* NextAuth.js
+
+---
+
+## 🚀 Running the Project
+
+Install dependencies:
+
+```bash id="w7x4kn"
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start development server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash id="n3p9fv"
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Frontend runs on:
 
-## Learn More
+```bash id="m8z2qj"
+http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an Mandarin Next.js tutorial.
+## 📁 Main Frontend Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash id="f6t1dr"
+frontend/
+├── app/
+├── components/
+├── lib/
+├── public/
+├── styles/
+└── package.json
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Design Concept
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The platform uses a Mandarin-inspired visual identity with:
+
+* orange and red accent colors
+* modern card layouts
+* glassmorphism effects
+* responsive dashboard UI
+* minimal learning-focused interface
+
+---
+
+## 📚 Main Pages
+
+* Home Page
+* Courses Page
+* Student Dashboard
+* Profile Page
+* Authentication Pages
+* Admin Panel
+
+---
+
+## 🔧 Development Notes
+
+This project was customized as a Mandarin learning platform using modern frontend technologies and responsive UI design principles.
+
+---
+
+## 👩‍💻 Developer
+
+Frontend developed for educational and learning purposes.
